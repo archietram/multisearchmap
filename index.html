@@ -3,11 +3,19 @@
 <head>
     <title>MultiSearch Map</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MultiSearch Map is a versatile tool that allows you to perform multiple search queries on Google Maps and visualize the results closest to a specified home location.">
+    <meta name="keywords" content="MultiSearch, Map, Google Maps, vacation, date night, relocation, business, real estate, event planning, fitness">
     <link rel="icon" type="image/webp" href="favicon.webp">
     <style>
         body {
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        #info {
+            background-color: #f4f4f9;
+            padding: 20px;
+            text-align: center;
         }
         iframe {
             border: none;
@@ -17,6 +25,21 @@
     </style>
 </head>
 <body>
+    <div id="info">
+        <h1>Welcome to the MultiSearch Map!</h1>
+        <p>MultiSearch Map is a versatile tool that allows you to perform multiple search queries on Google Maps and visualize the results closest to a specified home location. Whether you're planning a vacation, a date night, or relocating to a new area, MultiSearch Map helps you find essential places with ease.</p>
+        
+        <h2>Potential Use Cases:</h2>
+        <ul>
+            <li><strong>Vacation:</strong> Find restaurants, shopping centers, and tourist attractions near your stay.</li>
+            <li><strong>Date Night:</strong> Locate parks, entertainment centers, and dining options.</li>
+            <li><strong>Relocation:</strong> Search for grocery stores, doctors, schools, and other essentials.</li>
+            <li><strong>Business:</strong> Identify potential clients, competitors, and business opportunities in a specific area.</li>
+            <li><strong>Real Estate:</strong> Discover nearby amenities and services for property listings.</li>
+            <li><strong>Event Planning:</strong> Find venues, accommodations, and services for events and gatherings.</li>
+            <li><strong>Fitness:</strong> Locate gyms, parks, and recreational facilities near your home or work.</li>
+        </ul>
+    </div>
     <iframe id="example1" src="https://archietram.shinyapps.io/multisearch-map/" frameborder="0"></iframe>
 </body>
 </html>
